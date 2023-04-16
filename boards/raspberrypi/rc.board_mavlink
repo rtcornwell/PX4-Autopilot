@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# board specific MAVLink startup script.
+#------------------------------------------------------------------------------
+
+# Start MAVLink on the udp port
+mavlink start -d /dev/ttyams0

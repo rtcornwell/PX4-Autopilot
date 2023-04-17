@@ -281,3 +281,13 @@ CONFIG:
       buildType: MinSizeRel
       settings:
         CONFIG: raspberrypi_pico_default
+    pegasus_rover_default:
+      short: pegasus_rover
+      buildType: MinSizeRel
+      settings:
+        CONFIG: pegasus_rover_default
+    pegasus_quad_default:
+      short: pegasus_quad
+      buildType: MinSizeRel
+      settings:
+        CONFIG: pegasus_quad_default

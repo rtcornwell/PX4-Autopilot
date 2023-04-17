@@ -8,7 +8,7 @@ if [ -z ${PX4_DOCKER_REPO+x} ]; then
 	elif [[ $@ =~ .*navio2.* ]] || [[ $@ =~ .*raspberry.* ]] || [[ $@ =~ .*beaglebone.* ]] || [[ $@ =~ .*pilotpi.default ]]; then
 		# beaglebone_blue_default, emlid_navio2_default, px4_raspberrypi_default, scumaker_pilotpi_default
 		PX4_DOCKER_REPO="px4io/px4-dev-armhf:2021-08-18"
-	elif [[ $@ =~ .*pilotpi.arm64 ]] || [[ $@ =~ pegasus.*.*]]; then
+	elif [[ $@ =~ .*pilotpi.arm64 ]] || [[ $@ =~ .*rover.default ]]; then
 		# scumaker_pilotpi_arm64
 		PX4_DOCKER_REPO="px4io/px4-dev-aarch64:latest"
 	elif [[ $@ =~ .*navio2.* ]] || [[ $@ =~ .*raspberry.* ]] || [[ $@ =~ .*bebop.* ]]; then
